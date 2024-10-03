@@ -12,4 +12,12 @@ html{
 }
 body{
     overflow-x: hidden;
+    background-color: #1A1A1A;
+}
+.section{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,span,p,div{
+    color: #DAC5A7;
 }
