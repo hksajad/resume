@@ -1,27 +1,30 @@
 import Navbar from "@/components/template/Navbar/Navbar";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
   return (
-    <div className="Hero">
+    <div className="hero">
       <Navbar />
       {/* hero start */}
-      <div className="content_hero w-full mt-16">
-        <div className="hero flex justify-around items-center max-[768px]:flex-col">
-          {/* img hero */}
-          <div className="img_hero">
-            <Image src="/img/img_hero.jpg" width={500} height={500} className='rounded-[100%] w-[450px] h-[450px] max-[768px]:w-[300px] max-[768px]:h-[300px]' />
+      <div className="  w-full mt-[430px] flex justify-between items-center">
+        {/* content_info- */}
+        <div className="content_info bg-[#111111b4]  fixed rounded-[8px] flex flex-col">
+          <div className="title p-5 text-[20px] font-bold">
+            <h1>سجاد حسنی کاخ</h1>
           </div>
-          <div className="caption_hero  w-[300px] flex flex-col items-center max-[768px]:mt-5">
-            <h1 className='text-[30px] font-bold'>من سجاد حسنی کاخ</h1>
-            <span className='mt-5'>برنامه نویس و توسعه دهنده وب</span>
-            <Link href='/' className='mt-5 bg-[#0000007e] text-[#fff] px-3 py-3 rounded-[8px]'>مشاهده رزومه</Link>
+          <div className="img p-5">
+            <Image src='/img/img-hero.jpg' width={300} height={300} className='w-[300px] h-[300px]'/>
+          </div>
+          <div className="faverit p-5 text-[20px] font-bold">
+            <span>علاقه : فرانت  - اند</span>
+          </div>
+          <div className="location p-5 text-[20px] font-bold">
+            <span>شهر من : کرمان</span>
           </div>
         </div>
+        
       </div>
-      <hr className='mt-12 border-[#dac5a7]'/>
     </div>
   );
 };

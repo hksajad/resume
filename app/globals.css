@@ -12,12 +12,15 @@ html{
 }
 body{
     overflow-x: hidden;
-    background-color: #1a1a1a;
+    background-image: url('/img/Desktop - 7.png');
+    background-attachment:fixed ;
+    background-size: cover;
+    background-position: center;
 }
 .section{
     max-width: 1250px;
     margin: 0 auto;
 }
 div,h1,h2,h3,h4,h5,h6,span,p{
-    color: #dac5a7;
+    color: #dee2e6;
 }
