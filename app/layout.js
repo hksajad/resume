@@ -14,7 +14,7 @@ const rabie = localFont({
   ],
 });
 export const metadata = {
-  title: "سجاد حسنی کاخ",
+  title: "sajjad hasani kakh",
 };
 
 export default function RootLayout({ children }) {
