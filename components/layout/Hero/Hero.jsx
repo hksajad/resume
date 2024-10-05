@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="container">
         <div className=" w-full mt-[150px] flex justify-around items-center max-[768px]:flex-col">
           {/* content_info- */}
-          <div className="content_info bg-[#00000055]  rounded-[8px] flex flex-col">
+          <div className="content_info bg-[#2b2b2b57]  rounded-[8px] flex flex-col">
             <div className="title p-5 text-[20px] font-bold">
               <h1>سجاد حسنی کاخ</h1>
             </div>
@@ -20,7 +20,7 @@ const Hero = () => {
                 src="/img/img-hero.jpg"
                 width={300}
                 height={300}
-                className="w-[300px] h-[300px]"
+                className="w-[300px] h-[300px] rounded-[8px]"
               />
             </div>
             <div className="faverit p-5 text-[20px] font-bold">
