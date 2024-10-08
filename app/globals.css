@@ -12,10 +12,11 @@ html{
 }
 body{
     overflow-x: hidden;
-    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
-    background-attachment: fixed;
-    background-image: url('/img/poster_9fd8dac2-ce45-41de-b9f8-461764880d52.jpeg');
+    background: url('/img/body_img.png');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-div,h1,h2,h3,h4,h5,h6,span,p{
+/* div,h1,h2,h3,h4,h5,h6,span,p{
     color: #dee2e6;
-}
+} */

@@ -1,11 +1,14 @@
-import AboutUs from "@/components/layout/AboutUs/AboutUs";
-import Hero from "@/components/layout/Hero/Hero";
+import Footer from "@/components/layout/Footer/Footer";
+import Navbar from "@/components/layout/Navbar/Navbar";
+import AboutUs from "@/components/template/AboutUs/AboutUs";
+
 
 export default function Home() {
   return (
-    <div className="section">
-      <Hero/>
+    <div>
+      <Navbar/>
       <AboutUs/>
+      <Footer/>
     </div>
   );
 }
