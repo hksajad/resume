@@ -11,7 +11,7 @@ const HeroPage = () => {
             <Image src='/img/imgg.png' width={500} height={500} className='w-[400px] h-[500px] border-[4px] border-[#1a1a1a] max-[768px]:w-[300px] max-[768px]:h-[400px]'/>
           </div>
           {/* content hero */}
-          <div className="content_hero w-[430px]  flex flex-col max-[768px]:text-center max-[992px]:w-[500px]">
+          <div className="content_hero w-[430px]  flex flex-col max-[768px]:text-center max-[992px]:w-[500px] max-[768px]:mb-20">
             <span className='font-bold text-[25px]'>سلام !</span>
             <h1 className='font-bold text-[30px]'>من سجاد حسنی کاخ</h1>
             <h2 className='font-bold text-[40px] tracking-[4px] text-orange-400 max-[768px]:text-[30px]'>طراح و برنامه نویس وب</h2>
