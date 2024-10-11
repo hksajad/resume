@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <section className="NavPage">
       <div className="container">
-        <nav className="navbar flex justify-center items-center gap-12 pt-5 pb-5 max-[768px]:max-w-[300px]">
+        <nav className="navbar flex justify-center items-center gap-12 pt-5 pb-5 max-[768px]:max-w-[280px]">
           <Link href="/" className='cursor-pointer'>
             <h1 className="text-[20px] font-bold max-[768px]:hidden">
               صفحه اصلی
@@ -21,13 +21,13 @@ const Navbar = () => {
             </h1>
             <SiAboutdotme className="hidden text-[30px] font-bold max-[768px]:flex" />
           </Link>
-          <Link href="/" className='cursor-pointer'>
+          <Link href="/Work" className='cursor-pointer'>
             <h1 className="text-[20px] font-bold max-[768px]:hidden">
               نمونه کارها
             </h1>
             <MdWorkOutline className="hidden text-[30px] font-bold max-[768px]:flex" />
           </Link>
-          <Link href="/" className='cursor-pointer'>
+          <Link href="/Contact" className='cursor-pointer'>
             <h1 className="text-[20px] font-bold max-[768px]:hidden">
               ارتباط با من
             </h1>

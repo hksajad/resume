@@ -13,14 +13,14 @@ const AboutUs = () => {
         <div className="content_about flex justify-between items-center mt-28 max-[768px]:flex-col">
           <NavbarRout />
           <div className="caption_about w-[800px] max-[768px]:w-full">
-            <p className="font-bold text-justify text-[20px] leading-[40px] max-[768px]:text-[17px]">
+            <p className="font-bold text-justify text-[20px] leading-[40px] max-[768px]:text-[14px] max-[768px]:mx-7">
               برنامه‌نویس طراحی سایت با [4] سال تجربه در توسعه وب‌ سایت‌های
               کاربرپسند و جذاب. مهارت‌های قوی در HTML، CSS، JavaScript و
               فریم‌ورک‌ مدرن مانند NextJs و  دارای تجربه در بهینه‌سازی
               تجربه کاربری و طراحی واکنش‌گرا. متعهد به یادگیری مداوم و به‌روز
               نگه‌داشتن مهارت‌ها برای تطابق با تکنولوژی‌های جدید.
             </p>
-            <div className="btn flex items-center justify-center gap-10 flex-wrap mt-10">
+            <div className="btn flex items-center justify-center gap-10 flex-wrap mt-10 max-[768px]:gap-5">
               <div className="borders border-dotted border-2 border-[#1a1a1a] rounded-[8px] py-2 px-2">html,css,js (100%)</div>
               <div className="borders border-dotted border-2 border-[#1a1a1a] rounded-[8px] py-2 px-2">TailwindCSS (100%)</div>
               <div className="borders border-dotted border-2 border-[#1a1a1a] rounded-[8px] py-2 px-2">flexbox (100%)</div>
