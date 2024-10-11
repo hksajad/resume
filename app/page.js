@@ -4,7 +4,7 @@ import HeroPage from "@/components/template/HeroPage/HeroPage";
 
 export default function Home() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Navbar />
       <HeroPage/>
       <Footer/>
