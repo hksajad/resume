@@ -15,7 +15,7 @@ const Navbar = () => {
             </h1>
             <IoHomeOutline className="hidden text-[30px] font-bold max-[768px]:flex" />
           </Link>
-          <Link href="/AboutMe" className='cursor-pointer'>
+          <Link href="#AbouUs" className='cursor-pointer'>
             <h1 className="text-[20px] font-bold max-[768px]:hidden text-[#3f3768]">
               درباره من
             </h1>
