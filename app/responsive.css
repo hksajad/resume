@@ -16,7 +16,9 @@
 }
 
 @media screen and (max-width: 768px) {
-   
+   .content_hero{
+    flex-direction: column;
+   }
 }
 
 @media screen and (max-width: 576px) {

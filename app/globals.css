@@ -17,6 +17,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* div,h1,h2,h3,h4,h5,h6,span,p{
-    color: #dee2e6;
-} */
+div,h1,h2,h3,h4,h5,h6,span,p{
+    color: #3f3768;
+}

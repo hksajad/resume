@@ -7,7 +7,7 @@ import localFont from "next/font/local";
 const rabie = localFont({
   src: [
     {
-      path: "../public/font/YekanBakhMedium.woff",
+      path: "../public/font/IRAN_Bold(FaNum).ttf",
       weight: "200",
       style: "normal",
     },
