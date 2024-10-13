@@ -3,7 +3,7 @@ import Link from "next/link";
 const ResumePage = () => {
   return (
     <div className="container">
-      <div className="ResumePage mt-28 mb-28  max-w-[900px] m-auto max-[768px]:max-w-[100%]">
+      <div className="ResumePage mt-28 mb-28 overflow-x-hidden max-w-[900px] m-auto max-[768px]:max-w-[100%]">
         <div className="content_resume content_about flex justify-between  gap-[100px] max-[992px]:gap-[50px] max-[768px]:flex-col">
           <div className="title text-[25px] font-bold">
             <h1 className="max-[992px]:w-[100px]">رزومه من</h1>
