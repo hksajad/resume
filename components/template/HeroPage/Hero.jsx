@@ -24,7 +24,7 @@ const Hero = () => {
               src="/img/imgabout.png"
               width={400}
               height={400}
-              className="w-[400px] h-[400px] rounded-[10px] max-[992px]:w-[500px]"
+              className="w-[400px] h-[400px] rounded-[10px] max-[992px]:w-[500px] max-[768px]:h-[500px]"
             />
           </div>
           <div className="caption_hero w-[700px]  rounded-[10px] bg-[#fff] p-5 max-[768px]:text-center max-[768px]:max-w-[100%] max-[768px]:bg-[#ffffff9d]">
@@ -38,7 +38,7 @@ const Hero = () => {
                 href="/"
                 className="bg-[#3f3768] text-[#fff] px-3 py-3 rounded-[10px]"
               >
-                نمونه کارها
+                 رزومه من
               </Link>
             </div>
           </div>
