@@ -21,13 +21,13 @@ const Navbar = () => {
             </h1>
             <SiAboutdotme className="hidden text-[30px] font-bold max-[768px]:flex" />
           </Link>
-          <Link href="/Work" className='cursor-pointer'>
+          <Link href="#SkillsWork" className='cursor-pointer'>
             <h1 className="text-[20px] font-bold max-[768px]:hidden text-[#3f3768]">
               نمونه کارها
             </h1>
             <MdWorkOutline className="hidden text-[30px] font-bold max-[768px]:flex" />
           </Link>
-          <Link href="/Contact" className='cursor-pointer'>
+          <Link href="#Contact" className='cursor-pointer'>
             <h1 className="text-[20px] font-bold max-[768px]:hidden text-[#3f3768]">
               ارتباط با من
             </h1>

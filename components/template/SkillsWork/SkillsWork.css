@@ -1,0 +1,10 @@
+.img_skill:hover img{
+    transform: translateY(calc(-100% + 350px));
+    transition: transform 2s ease-in-out;
+}
+.img_skill img{
+    transition: transform 2s ease-in-out;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
